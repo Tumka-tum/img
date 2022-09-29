@@ -47,8 +47,10 @@ Cycript — мост с JavaScript на Objective-C, позволяющий ра
 
 Инъекция в процессы:
 
+```
 bash# cycript -p SpringBoard
 cy#
+```
 
 Кроме Darwin, приложение автономно работает на Android и Linux, предоставляя доступ к Java, но без инъекции в процессы.
 
@@ -56,8 +58,10 @@ cy#
 
 Например, некое приложение пытается залезть в /etc/passwd, чтобы проверить пароль. А мы вместо этого отправляем его за паролем в директорию /var/passwd-fake:
 
+```
 cy# fopen = dlsym(RTLD_DEFAULT, "fopen")
 (typedef void*)(0x7fff900c34ec)
+```
 
 Презентация:
 
