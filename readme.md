@@ -68,24 +68,42 @@ cy# fopen = dlsym(RTLD_DEFAULT, "fopen")
 
 
 [Cyrket](https://web.archive.org/web/20081218052235/http://www.cyrket.com/) — клиент Android Market для десктопных веб-браузеров. Идейный аналог Cydia, только для Android.
+
 [FQL/JDBC](https://web.archive.org/web/20090620102150/http://forum.developers.facebook.com/viewtopic.php?pid=9172) — драйвер JDBC для Facebook Query Language (FQL). Позволял производить FQL-запросы в стандартном SQL-стиле. Данные возвращаются по умолчанию в формате JSON. К сожалению, Facebook API старше 2.0 больше пе поддерживают FQL.
+
 [ircWAB](https://web.archive.org/web/20080829211521/http://www.irclogs.com/irc-bin/login.irc?net=srks) — простой IRC-клиент на HTTP, работал в браузере, без использования Java и Flash
+
 [iPhone Java](https://web.archive.org/web/20071212202601/http://iphone.fiveforty.net/wiki/index.php/IPhone_Java) — порт Java для iPhone (с коннекторами Objective-C). Смысл в том, что после джейлбрейка на устройстве iOS можно запустить компактную Java Virtual Machine и рабочее окружение. В частности, автору удалось запустить на своём телефоне JamVM с определёнными изменениями.
+
 [Menes/C++](http://svn.saurik.com/repos/menes/trunk/) — высокоуровневая библиотека C++, которая используется в инсталляторе Cydia и других инструментах.
+
 [Nmap+V](https://web.archive.org/web/20220000000000*/ftp://ftp.saurik.com/pub/nmap/nmap%2BV) — оригинальный сканер портов Nmap со вспомогательными XML-скриптами для распознавания протоколов и ускорения сканирования. Когда автор nmap не успел ещё реализовать эту функциональность у себя, он рекомендовал нуждающимся использовать патч от Саурика.
+
 [Orchid](https://www.orchid.com/) — децентрализованная платформа и рынок VPN (на блокчейне ERC-20, токен OXT). Джея пригласили техническим директором — и он всё сделал.
+
 [s3fs](http://svn.saurik.com/repos/menes/trunk/s3fs/) — высокопроизводительная файловая система для S3 (на уровне ядра Linux)
+
 [Cydia Substrate](http://www.cydiasubstrate.com/) — мощная платформа для изменения кода работающих приложений на лету (под iOS и Android), для работы требует рутования или джейлбрейка. С помощью этой платформы создавались моды (изменённые варианты) оригинальных приложений Apple для платформы Cydia. Сам Джей разработал и выпустил с помощью этого модификатора многочисленные версии программных расширений и функций iOS для операционной системы после джейлбрейка, в том числе:
 
+
 [Apple File Conduit 2](https://www.redmondpie.com/afc2-for-ios-8-8.1-released-by-saurik-gives-full-file-system-access-over-usb/) (AFC2) — полный доступ к файловой системе iOS;
+
 [Cycorder](https://www.imore.com/the-free-iphone-video-recorder-cycorder) — бесплатный видеорекордер, упоминался выше;
+
 [CyDialer](https://www.wsj.com/articles/BL-DGB-9421) — доступ к экрану блокировки, например, для быстрых звонков;
+
 [Cydget](https://www.wsj.com/articles/BL-DGB-9421) — виджеты для экрана блокировки;
+
 [Cyntact](https://web.archive.org/web/20180202012532/https://www.imore.com/daily-tip-add-contact-pics-address-book-cyntact-jailbreak) — добавление картинок (фотографий) в адресную книгу iOS;
+
 [Cyueue](https://lifehacker.com/cyueue-adds-quick-song-queuing-to-the-ios-music-app-5991880) — добавление во встроенный плеер кнопки «Играть следующую песню» до окончания текущей;
+
 Five Icon Dock — док на пять иконок;
+
 [Veency](https://cydia.saurik.com/package/veency/) — удалённое подключение к айфону по VNC (видео);
+
 [WinterBoard](https://appadvice.com/appnn/2008/08/how-to-use-winterboard-summerboard-replacement-a-walkthrough) — фоновое приложение, которое скачивает и применяет любые темы оформления, включая анимированный фон, значок аккумулятора, разные слайдеры и проч.;
+
 [Cydia Eraser](https://www.networkworld.com/article/2950156/new-un-jailbreaking-tool-cydia-impactor-for-ios-has-android-roots.html) (Cydia Impactor), чтобы скрывать на телефоне следы джейлбрейка, удалять личные данные, стирать Cydia и возвращать оригинальный номер версии iOS;
 … и др.
 
